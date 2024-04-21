@@ -6,12 +6,14 @@
     <title>jiac.ir</title>
 
     <!--=============== FAVICON ===============-->
-    <link
-      rel="sortcut icon"
-      href="./assets/image/favicon.ico"
-      type="image/x-icon"
-    />
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
     <!--=============== GOOGLE FONT ===============-->
     <link rel="preconnect" href="https//fonts.googleeapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,12 +28,13 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
 </head>
 <body class="light-theme">
+
      <!--=============== HEADER ===============-->
      <header>
       <div class="container">
         <nav class="navbar">
           <a href="/" class="logo">jiac <span>.ir</span></a>
-        </nav>
+        
 
         <div class="btn-group">
           <button class=""theme-btn theme-btn-mobile light>
@@ -66,11 +69,72 @@
 
        <div class="mobile-nav">
          <button class="nav-close-btn">
-          <ion-icon name="close-outline"></ion-icon>
+          <ion-icon name="close-circle-outline"></ion-icon>
         </button>
+
+
+        <div class="wrapper">
+          <p class="h3 nav-title">Main Menu</p>
+          <ul>
+            <li class="nave-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nave-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nave-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="h3 nav-title">Topics</p>
+        </div>
+        <ul>
+          <li class="nave-item">
+            <a href="#" class="nav-link">Database</a>
+          </li>
+          <li class="nave-item">
+            <a href="#" class="nav-link">Accessibility</a>
+          </li>
+          <li class="nave-item">
+            <a href="#" class="nav-link">Web Performance</a>
+          </li>
+         </ul>
+        </div>
        </div>
+      </nav>
+     </div>
+    </header>
+    <main>
+      <!--=============== HERO ===============-->
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">Hi,<b> Welcome</b> to <br /> jiac.ir Web</div></h1>
+            <p class="h3">Hello Welcome To The Jiac Site</p>
+            
+            
+            <div class="btn-group">
+              <a href="#"class="btn btn-primary">Contact</a>
+              <a href="#"class="btn btn-secondary">About</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img src="./assets/images/r_172_240126140221 (1).png" alt="" class="hero-img" />
+
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+
+        </div>
       </div>
-     </header>
+    </main>
 
      <!--=============== MAIN SCRIPT ===============-->
     <script src="./assets/js/script.js"></script>
@@ -84,5 +148,10 @@
      nomodule
      src="https://unpkg.com/ionicon@5.5.2/dist/ionicon/ionicon.js"
     ></script>
-  </body>
+  <body>
+     
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>  
 </html>
